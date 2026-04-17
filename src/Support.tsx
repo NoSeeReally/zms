@@ -13,11 +13,11 @@ export default function Support(){
 
                     <h2>Contact</h2>
                     <p>
-                        You can reach out for support via the following:
+                        You can reach out for support or report a bug:
                     </p>
 
                     <ul>
-                        <li>Email: support@example.com</li>
+                        <li>Email: zimadevsupport@gmail.com</li>
                         <li>Response time: 1–3 days (for demo purposes)</li>
                     </ul>
 
