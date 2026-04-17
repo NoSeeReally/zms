@@ -1,0 +1,88 @@
+.header{
+    background-color: #94B4C1;
+    border: 2px solid #EAE0CF;
+    border-radius: 25px;
+    display: inline-flex;
+    width:auto;
+    height: auto;
+}
+.contentHeader h1{ 
+    color: #EAE0CF;
+    font-family:cursive;
+    text-shadow: #213448 6px 4px ;
+    font-size: 3rem;
+    display: inline-flex;
+    padding-left: 30px;
+    font-weight: 400;
+}
+.navBarContainer{
+    padding-left: 700px;
+    padding-top: 35px;
+}
+.navButton{
+    margin-right: 5px;
+    background-color: #547792;
+    border: 2px solid #EAE0CF;
+    border-radius: 15px;
+    width:200px;
+    height: 50px;
+    display: inline;
+    font-family: cursive;
+    color: #EAE0CF;
+    text-shadow: #213448 6px 4px ;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+.navButton:hover{
+    background-color: #1a5e92;
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 0.8em;
+    text-align: center;
+    color:#EAE0CF;
+    font-family: cursive;
+}
+.footerLinks a{
+    font-weight: bold;
+    text-decoration: none;
+}
+.footerCopyright{
+    margin-top: 5px;
+}
+.padding{
+    padding: 20px;
+    border: none;
+}
+.Container{
+    align-self: center;
+    width:90%;
+    border: #EAE0CF solid 2px;
+    border-radius: 25px;
+    background-color: #94B4C1;
+    color: #EAE0CF;
+    font-family: cursive;
+    
+}
+I use this for the header title of the page
+.Container h1{
+    text-decoration: underline;
+    text-shadow: #213448 6px 4px ;
+    text-align: center;
+}
+.Content{
+   text-align: justify;
+    color: #213448;
+    text-shadow: none;
+    font-weight: 700;
+}
+
+.Content h2{
+    color: #EAE0CF;
+}
+
+
