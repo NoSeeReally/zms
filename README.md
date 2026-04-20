@@ -190,10 +190,69 @@ Link:
 ```html
 <link href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&family=Jua&family=Rock+3D&display=swap" rel="stylesheet">
 ```
+#### Font weights defined:
+- Regular (400)
+- Medium (500)
+- Bold (700)
+
+## 3. Spacing System
+- Base spacing unit defined
+- Consistent padding rules
+- Margin rules standardized
+- Component spacing consistency
+
+## 4. Layout System
+- Grid system
+- Max content width defined
+### Responsive breakpoints:
+- Mobile
+- Tablet
+- Desktop
+- Sidebar or top navigation decided
+- Card layout style defined
+## 5. Components Style
+- Primary button: squared with soft radius border
+- Secondary button: pill style
+- Disabled state: greyed out
+- Input fields style
+- Cards design system
+- Modals / popups style
+- Navigation bar style
+- Progress indicators
+- Quiz UI elements
+# 6. Visual Style / Personality
+- Minimal
+- Academic
+- Friendly / playful
+- Rounded corners
+- Soft shadows
+- Filled icons
+- Fade in / fade out animations
+# 7. Responsiveness Rules
+- Mobile-first design
+- Text scaling rules
+- Button sizing on mobile
+- Layout stacking behavior
+# 8. UX Consistency Rules
+- One style for all buttons
+- One style for all cards
+- Consistent spacing everywhere
+- Consistent feedback system
+- Consistent navigation behavior
+# 9. Learning Experience Design
+- Highlight correct answers visually
+- Error explanation style
+- Progress feedback system
+- Reward / motivation system
+- Hint system design
+# 10. Implementation Prep
+- Design system stored in code (CSS variables / theme file)
+- Reusable components
+- Theme easily adjustable (no hardcoded colors everywhere)
+
 ---
 ## Roadmap
-
-- [ ]Finalize theme layout
+- [ ] Finalize theme layout
 - [ ] Complete authentication system
 - [ ] Finish dashboard UI
 - [ ] Connect backend API
