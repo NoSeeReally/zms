@@ -1,8 +1,8 @@
 :root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #213448;
-  --border: #e5e4e7;
+  --text: #EAE0CF;
+  --text-h: #C9C0AF;
+  --bg: #182634;
+  --border: rgba(234, 224, 207, 0.2);
   --code-bg: #f4f3ec;
   --accent: #94B4C1;
   --accent-bg: #5BC2E7;
@@ -11,8 +11,8 @@
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --sans: system-ui, 'Jua', Roboto, sans-serif;
+  --heading: system-ui, 'Jua', Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
   font: 18px/145% var(--sans);

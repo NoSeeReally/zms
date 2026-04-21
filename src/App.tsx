@@ -2,10 +2,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
 import Copyright from "./components/Copyright"
-import Policy from "./Policy";
-import Terms from "./Terms"
-import Support from "./Support";
-import Home from "./Home";
+import Policy from "./pages/Policy";
+import Terms from "./pages/Terms"
+import Support from "./pages/Support";
+import Home from "./pages/Home";
+import AboutUs from "./pages/AboutUs";
+import Lesson from "./pages/Lesson";
+
 
 export default function App(){
     return(
@@ -21,6 +24,8 @@ export default function App(){
                 <Route path="/policy" element={<Policy />} />
                 <Route path="/terms" element={<Terms/>}/>
                 <Route path="/support" element={<Support/>}/>
+                <Route path="/aboutus" element={<AboutUs/>}/>
+                <Route path="lessons" element={<Lesson/>}/>
             </Routes>
 
             
