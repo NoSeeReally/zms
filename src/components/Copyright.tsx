@@ -11,6 +11,8 @@ export default function Copyright(){
                 <Link to="/terms">Terms of Use</Link>
                 <span>&nbsp;|&nbsp;</span>
                 <Link to="/support">Support</Link>
+                <span>&nbsp;|&nbsp;</span>
+                <Link to="/aboutus">About Us</Link>
             </nav>
             <div className="footerCopyright">
                 <span>&copy;&nbsp;</span>
