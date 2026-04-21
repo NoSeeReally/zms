@@ -252,7 +252,7 @@ Link:
 
 ---
 ## Roadmap
-- [ ] Finalize theme layout
+- [/] Finalize theme layout
 - [ ] Complete authentication system
 - [ ] Finish dashboard UI
 - [ ] Connect backend API
@@ -262,6 +262,13 @@ Link:
 - [ ] Add documentation
 
 ---
+## To Do
+- [ ] Cookie Modal Pop-up feature
+- [ ] Log in/Log out feature
+- [ ] Showing of Subtopics upon clicking Main topics
+- [ ] Homepage Dashboard Development
+- [ ] Profile Page Development
+- [/] Transfer About Us in Footer
 
 ## Learning Goals
 
