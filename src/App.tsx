@@ -8,6 +8,7 @@ import Support from "./pages/Support";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
 import Lesson from "./pages/Lesson";
+import Profile from "./pages/Profile";
 
 
 export default function App(){
@@ -17,6 +18,7 @@ export default function App(){
                 <Header />
                 <NavBar />
             </div>
+           
 
             
             <Routes>
@@ -26,6 +28,7 @@ export default function App(){
                 <Route path="/support" element={<Support/>}/>
                 <Route path="/aboutus" element={<AboutUs/>}/>
                 <Route path="lessons" element={<Lesson/>}/>
+                <Route path="profile" element={<Profile/>}/>
             </Routes>
 
             
