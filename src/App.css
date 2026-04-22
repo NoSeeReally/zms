@@ -17,7 +17,8 @@
 }
 
 .navBarContainer{
-    padding-left: 700px;
+    margin-left: clamp(2rem, calc(50vw - 50px), 700px);
+    /*padding-left: 700px;*/
     padding-top: 23px;
 }
 .navButton{
@@ -42,7 +43,9 @@
 .navButton::after{
     background-color: #4A6A86;
 }
-
+.body{
+    padding: 8%;
+}
 .footerContainer{
     width: 100%;
     padding: 10px 0;
@@ -73,7 +76,6 @@
 ;
     
 }
-I use this for the header title of the page
 .Container h1{
     text-decoration: underline;
     text-shadow: #213448 6px 4px ;
@@ -166,6 +168,42 @@ I use this for the header title of the page
 
 .lesson-card-button:hover{
     background-color: #fff5e5;
+}
+
+
+.cookie-card{
+    background-color: #94B4C1;
+    width: 40%;
+    height: 30%;
+    border-radius: 25px;
+    border:#EAE0CF 2px solid;
+    overflow: hidden;
+}
+
+.cookie-card-title{
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;   
+}
+.cookie-card-title p{
+    background-color: #4A6A86;
+    margin: 0;
+    font-family: 'Jua', system-ui;
+    font-weight: 700;
+    color: #fff4e4;
+}
+.cookie-card-button{
+    background-color: #4A6A86;
+    font-family: 'Jua', system-ui;
+    font-weight: 400;
+    color: #EAE0CF;
+    width: 30%;
+    
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.cookie-card-button:hover{
+    background-color: #6aa6cd;
 }
 
 
