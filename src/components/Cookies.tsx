@@ -13,7 +13,7 @@ export default function Cookies({setState}: CookieProp){
     
     return(
         <>
-        <div className=''>
+        <div className='cookie-overlay'>
             <div className='cookie-card'>
                 <div className='cookie-card-title'>
                     <p>Cookies</p>
