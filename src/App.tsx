@@ -8,9 +8,16 @@ import Support from "./pages/Support";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
 import Lesson from "./pages/Lesson";
-import Profile from "./pages/Profile";
 import Cookies from "./components/Cookies";
 import { useState } from "react";
+import Arithmetic from "./components/lessons/Arithmetic";
+import Algebra from "./components/lessons/Algebra";
+import Algebra2 from "./components/lessons/Algebra2";
+import Geometry from "./components/lessons/Geometry";
+import PreAlgebra from "./components/lessons/PreAlgebra";
+import StatisticsAndProbability from "./components/lessons/StatisticsAndProbability";
+import Trigonometry from "./components/lessons/Trigonometry";
+
 
 export default function App(){
     const [isVisible, setIsVisible] = useState<boolean>(true)
@@ -40,7 +47,15 @@ export default function App(){
                 <Route path="/support" element={<Support/>}/>
                 <Route path="/aboutus" element={<AboutUs/>}/>
                 <Route path="lessons" element={<Lesson/>}/>
-                <Route path="profile" element={<Profile/>}/>
+                <Route path="Arithmetic Review" element={<Arithmetic/>}/>
+                <Route path="Pre-Algebra" element={<PreAlgebra/>}/>
+                <Route path="Algebra 1" element={<Algebra/>}/>
+                <Route path="Algebra 2" element={<Algebra2/>}/>
+                <Route path="Geometry" element={<Geometry/>}/>
+                <Route path="Trigonometry" element={<Trigonometry/>}/>
+                <Route path="Statistics and Probability" element={<StatisticsAndProbability/>}/>
+                
+                
             </Routes>
              <div className="body">
 
