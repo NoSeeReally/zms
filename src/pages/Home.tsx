@@ -8,7 +8,7 @@ export default function Home(){
                 <main className="home-page">
                     <section className="home-hero">
                         <div className="home-hero-copy">
-                            <p className="home-eyebrow">ZimAsul Learning Hub</p>
+                            <p className="home-eyebrow">Red Lead Learning Hub</p>
                             <h1>Build math confidence one lesson at a time.</h1>
                             <p className="home-lead">
                                 Clear lessons, steady practice, and a simple path from review to mastery.

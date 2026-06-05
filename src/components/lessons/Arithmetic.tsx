@@ -1,4 +1,5 @@
 import SubLessonCard from "../SubLessonCard";
+import back from '../../assets/back.png'
 import { Link } from "react-router-dom";
 export default function Arithmetic(){
     const subLessons : Array<{title:string}>=[
@@ -15,7 +16,9 @@ export default function Arithmetic(){
         <>
             <div className="padding"></div>
             <div className="sublesson-header">
-                <Link className="lesson-back-button" to="/lessons">Back to Lessons</Link>
+                <Link className="lesson-back-button" to="/lessons" aria-label="Back to Lessons">
+                    <img className="lesson-back-icon" src={back} alt="" />
+                </Link>
             </div>
             <div className="lesson-description">
                 <b>Arithmetic Review</b>

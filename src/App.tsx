@@ -53,7 +53,7 @@ export default function App(){
                 <Route path="Algebra 2" element={<Algebra2/>}/>
                 <Route path="Geometry" element={<Geometry/>}/>
                 <Route path="Trigonometry" element={<Trigonometry/>}/>
-                <Route path="Statistics and Probability" element={<StatisticsAndProbability/>}/>
+                <Route path="Stats & Probability" element={<StatisticsAndProbability/>}/>
                 
                 
             </Routes>

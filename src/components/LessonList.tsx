@@ -33,7 +33,7 @@ const lessons: Array<{
     subtopics: ["Right Triangle Trigonometry", "Sine, Cosine, Tangent", "Special Triangles", "Unit Circle", "Graphs of Trig Functions", "Inverse Trig Functions", "Applications"]
   },
   {
-    title: "Statistics and Probability",
+    title: "Stats & Probability",
     subtopics: ["Mean, Median, Mode", "Range", "Intro to Standard Deviation", "Graphs and Charts", "Basic Probability", "Compound Probability", "Permutation and Combinations", "Data Interpretation"]
   }
   ];
@@ -42,10 +42,11 @@ const lessons: Array<{
         <>
             <div className="padding"></div>
             <div className="lesson-list-container">
-          {lessons.map((lesson) => (
+          {lessons.map((lesson, index) => (
             <LessonCard
               key={lesson.title}
               title={lesson.title}
+              index={index + 1}
             />
           ))}
             </div>
