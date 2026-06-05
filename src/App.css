@@ -17,28 +17,31 @@
 }
 
 .navBarContainer{
-    margin-left: clamp(2rem, calc(50vw - 50px), 700px);
-    /*padding-left: 700px;*/
-    padding-top: 23px;
+    margin-left: auto;
+    margin-right: 24px;
+    padding-top: 18px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 .navButton{
     margin-right: 5px;
-    background-color: #2A3D50;
-    border: 2px solid rgba(234, 224, 207, 0.2);
-    border-radius: 15px;
-    width:200px;
-    height: 50px;
+    background: linear-gradient(180deg, #EAE0CF 0%, #f7eddc 100%);
+    border: 2px solid rgba(33, 52, 72, 0.2);
+    border-radius: 10px;
+    width:220px;
+    height: 56px;
     display: inline;
     font-family: 'Jua', system-ui;
-    color: #EAE0CF;
-    text-shadow: #213448 6px 4px ;
-    font-size: 1rem;
+    color: #213448;
+    text-shadow: none;
+    font-size: 1.1rem;
     font-weight: 600;
-    padding: 8px 12px;
+    padding: 10px 16px;
     text-decoration: none;
 }
 .navButton:hover{
-    background-color: #6aa6cd;
+    background: linear-gradient(180deg, #fff5e5 0%, #f4e7d3 100%);
 }
 .navButton::after{
     background-color: #4A6A86;
