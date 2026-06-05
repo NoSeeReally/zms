@@ -1,10 +1,34 @@
-export default function StatisticsAndProbability(){
+import SubLessonCard from "../SubLessonCard";
+import { Link } from "react-router-dom";
+export default function Trigonometry(){
+    const subLessons : Array<{title:string}>=[
+        {title:"Mean, Median, Mode"},
+        {title:"Range"},
+        {title:"Intro to Standard Deviation"},
+        {title:"Graphs and Charts"},
+        {title:"Basic Probability"},
+        {title:"Compound Probability"},
+        {title:"Permuations and Combinations"},
+        {title:"Data Interpretations"}
+    ]
     return(
         <>
             <div className="padding"></div>
+           <div className="sublesson-header">
+                <Link className="lesson-back-button" to="/lessons">Back to Lessons</Link>
+            </div>
+            <div className="lesson-description">
+                <b>Statistics and Probability</b>
+                    <br />
+                Teaches how to collect, analyze, and interpret data and how to measure the likelihood of events using mathematical reasoning.
+            </div>
             <div className="Container">
-                <h1> This is the Statistics and Probability Page</h1>
-                <h2>Ongoing development</h2>
+                    {subLessons.map((lesson) => (
+                    <SubLessonCard
+                        key={lesson.title}
+                        title={lesson.title}
+                    />
+                    ))}
             </div>
         </>
     );    
