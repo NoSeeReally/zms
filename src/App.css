@@ -149,6 +149,8 @@
     font-size: 2rem;
     color: #EAE0CF;
     text-shadow: #213448 4px 3px;
+    white-space: pre-line;
+    overflow-wrap: anywhere;
    
 }
 /*.lesson-card:hover{
@@ -282,6 +284,7 @@
     font-size: 1.05rem;
     line-height: 1.65;
     text-shadow: none;
+    white-space: pre-line;
 }
 
 .lesson-quiz-block{
