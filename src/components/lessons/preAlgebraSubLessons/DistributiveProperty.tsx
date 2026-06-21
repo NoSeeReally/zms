@@ -1,11 +1,68 @@
-export default function DistributiveProperty(){
+import LessonRenderer, { type LessonCard } from "../LessonRenderer";
+
+const distributivePropertyLesson: LessonCard[] = [
+    {
+        type: "content",
+        title: "Distributive Property",
+        content: ``,
+        
+    },
+     {
+        type: "content",
+        title: "Distributive Property",
+        content: ``
+        ,
+        
+    },
+    {
+        type: "content",
+        title: "Distributive Property",
+        content: `` 
+    },
+    {
+        type: "content",
+        title: "Distributive Property",
+        content: ``
+        ,
+        
+    },
+    {
+        type: "content",
+        title: "Distributive Property",
+        content: ``
+        
+    },
+    {
+        type: "quiz",
+        question: "Distributive Property",
+        /*choices:
+        answer: */
+    },
+    {
+        type: "quiz",
+        question: "Distributive Property",
+        /*choices:
+        answer: */
+    },
+    {
+        type: "quiz",
+        question: "Distributive Property",
+        /*choices: 
+        answer: */
+    },
+    {
+        type: "content",
+        title: "Distributive Property",
+        content: ``
+        
+    }
+];
+
+export default function SimplifyingExpressions(){
 
     return(
         <>
-            <div className="padding"></div>
-            <div className="Container">
-                <h1>Ongoing development</h1>
-            </div>
+           return <LessonRenderer lessonTitle="Like Terms" cards={distributivePropertyLesson} returnPath="/Pre-Algebra" />;
         </>
     );
 }

@@ -1,11 +1,68 @@
-export default function Inequalities(){
+import LessonRenderer, { type LessonCard } from "../LessonRenderer";
+
+const inequalitiesLesson: LessonCard[] = [
+    {
+        type: "content",
+        title: "Inequalities",
+        content: ``,
+        
+    },
+     {
+        type: "content",
+        title: "Inequalities",
+        content: ``
+        ,
+        
+    },
+    {
+        type: "content",
+        title: "Inequalities",
+        content: `` 
+    },
+    {
+        type: "content",
+        title: "Inequalities",
+        content: ``
+        ,
+        
+    },
+    {
+        type: "content",
+        title: "Inequalities",
+        content: ``
+        
+    },
+    {
+        type: "quiz",
+        question: "Inequalities",
+        /*choices:
+        answer: */
+    },
+    {
+        type: "quiz",
+        question: "Inequalities",
+        /*choices:
+        answer: */
+    },
+    {
+        type: "quiz",
+        question: "Inequalities",
+        /*choices: 
+        answer: */
+    },
+    {
+        type: "content",
+        title: "Inequalities",
+        content: ``
+        
+    }
+];
+
+export default function SimplifyingExpressions(){
 
     return(
         <>
-            <div className="padding"></div>
-            <div className="Container">
-                <h1>Ongoing development</h1>
-            </div>
+           return <LessonRenderer lessonTitle="Like Terms" cards={inequalitiesLesson} returnPath="/Pre-Algebra" />;
         </>
     );
 }

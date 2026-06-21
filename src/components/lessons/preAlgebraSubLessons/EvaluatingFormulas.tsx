@@ -1,6 +1,6 @@
 import LessonRenderer, { type LessonCard } from "../LessonRenderer";
 
-const expressionLesson: LessonCard[] = [
+const efLesson: LessonCard[] = [
     {
         type: "content",
         title: "What does 'evaluate' mean?",
@@ -99,7 +99,7 @@ export default function EvaluatingFormulas(){
 
     return(
         <>
-           return <LessonRenderer lessonTitle="Evaluating Formulas" cards={expressionLesson} returnPath="/Pre-Algebra" />;
+           return <LessonRenderer lessonTitle="Evaluating Formulas" cards={efLesson} returnPath="/Pre-Algebra" />;
         </>
     );
 }

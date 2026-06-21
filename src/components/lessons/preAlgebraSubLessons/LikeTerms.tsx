@@ -1,6 +1,6 @@
 import LessonRenderer, { type LessonCard } from "../LessonRenderer";
 
-const expressionLesson: LessonCard[] = [
+const likeTerms: LessonCard[] = [
     {
         type: "content",
         title: "What are like terms?",
@@ -104,7 +104,7 @@ export default function LikeTerms(){
 
     return(
         <>
-           return <LessonRenderer lessonTitle="Like Terms" cards={expressionLesson} returnPath="/Pre-Algebra" />;
+           return <LessonRenderer lessonTitle="Like Terms" cards={likeTerms} returnPath="/Pre-Algebra" />;
         </>
     );
 }

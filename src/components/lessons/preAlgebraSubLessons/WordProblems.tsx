@@ -1,11 +1,68 @@
-export default function WordProblems(){
+import LessonRenderer, { type LessonCard } from "../LessonRenderer";
+
+const wordProblemsLesson: LessonCard[] = [
+    {
+        type: "content",
+        title: "Word Problems",
+        content: ``,
+        
+    },
+     {
+        type: "content",
+        title: "Word Problems",
+        content: ``
+        ,
+        
+    },
+    {
+        type: "content",
+        title: "Word Problems",
+        content: `` 
+    },
+    {
+        type: "content",
+        title: "Word Problems",
+        content: ``
+        ,
+        
+    },
+    {
+        type: "content",
+        title: "Word Problems",
+        content: ``
+        
+    },
+    {
+        type: "quiz",
+        question: "Word Problems",
+        /*choices:
+        answer: */
+    },
+    {
+        type: "quiz",
+        question: "Word Problems",
+        /*choices:
+        answer: */
+    },
+    {
+        type: "quiz",
+        question: "Word Problems",
+        /*choices: 
+        answer: */
+    },
+    {
+        type: "content",
+        title: "Word Problems",
+        content: ``
+        
+    }
+];
+
+export default function SimplifyingExpressions(){
 
     return(
         <>
-            <div className="padding"></div>
-            <div className="Container">
-                <h1>Ongoing development</h1>
-            </div>
+           return <LessonRenderer lessonTitle="Like Terms" cards={wordProblemsLesson} returnPath="/Pre-Algebra" />;
         </>
     );
 }
