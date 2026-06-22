@@ -58,11 +58,11 @@ const wordProblemsLesson: LessonCard[] = [
     }
 ];
 
-export default function SimplifyingExpressions(){
+export default function WordProblems(){
 
     return(
         <>
-           return <LessonRenderer lessonTitle="Like Terms" cards={wordProblemsLesson} returnPath="/Pre-Algebra" />;
+           return <LessonRenderer lessonTitle="Word Problems" cards={wordProblemsLesson} returnPath="/Pre-Algebra" />;
         </>
     );
 }

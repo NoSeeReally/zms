@@ -62,7 +62,7 @@ export default function SimplifyingExpressions(){
 
     return(
         <>
-           return <LessonRenderer lessonTitle="Like Terms" cards={simplifyingExpressionLesson} returnPath="/Pre-Algebra" />;
+           return <LessonRenderer lessonTitle="Simplifying Expressions" cards={simplifyingExpressionLesson} returnPath="/Pre-Algebra" />;
         </>
     );
 }

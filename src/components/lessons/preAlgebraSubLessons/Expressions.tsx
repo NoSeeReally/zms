@@ -63,7 +63,7 @@ export default function Expressions(){
 
     return(
         <>
-           return <LessonRenderer lessonTitle="Variables" cards={expressionLesson} returnPath="/Pre-Algebra" />;
+           return <LessonRenderer lessonTitle="Expressions" cards={expressionLesson} returnPath="/Pre-Algebra" />;
         </>
     );
 }

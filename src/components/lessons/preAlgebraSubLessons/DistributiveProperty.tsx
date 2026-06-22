@@ -58,11 +58,11 @@ const distributivePropertyLesson: LessonCard[] = [
     }
 ];
 
-export default function SimplifyingExpressions(){
+export default function DistributiveProperty(){
 
     return(
         <>
-           return <LessonRenderer lessonTitle="Like Terms" cards={distributivePropertyLesson} returnPath="/Pre-Algebra" />;
+           return <LessonRenderer lessonTitle="Distributive Property" cards={distributivePropertyLesson} returnPath="/Pre-Algebra" />;
         </>
     );
 }

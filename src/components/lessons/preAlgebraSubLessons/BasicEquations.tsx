@@ -58,11 +58,11 @@ const basicEquationLesson: LessonCard[] = [
     }
 ];
 
-export default function SimplifyingExpressions(){
+export default function BasicEquations(){
 
     return(
         <>
-           return <LessonRenderer lessonTitle="Like Terms" cards={basicEquationLesson} returnPath="/Pre-Algebra" />;
+           return <LessonRenderer lessonTitle="Basic Equations" cards={basicEquationLesson} returnPath="/Pre-Algebra" />;
         </>
     );
 }
