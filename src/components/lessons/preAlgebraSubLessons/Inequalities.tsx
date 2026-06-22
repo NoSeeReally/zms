@@ -58,11 +58,11 @@ const inequalitiesLesson: LessonCard[] = [
     }
 ];
 
-export default function SimplifyingExpressions(){
+export default function Inequalities(){
 
     return(
         <>
-           return <LessonRenderer lessonTitle="Like Terms" cards={inequalitiesLesson} returnPath="/Pre-Algebra" />;
+           return <LessonRenderer lessonTitle="Inequalities" cards={inequalitiesLesson} returnPath="/Pre-Algebra" />;
         </>
     );
 }
