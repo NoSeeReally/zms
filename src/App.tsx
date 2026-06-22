@@ -46,6 +46,28 @@ import Quadratics from "./components/lessons/algebraSubLessons/Quadratics";
 import Sequences from "./components/lessons/algebraSubLessons/Sequences";
 import SlopeAndIntercept from "./components/lessons/algebraSubLessons/SlopeAndIntercept";
 import SystemsOfEquatons from "./components/lessons/algebraSubLessons/SystemsOfEquations";
+import AdvancedFactoring from "./components/lessons/algebra2SubLessons/AdvancedFactoring";
+import CompletingTheSquare from "./components/lessons/algebra2SubLessons/CompletingTheSquare";
+import ComplexNumbers from "./components/lessons/algebra2SubLessons/ComplexNumbers";
+import ConicSections from "./components/lessons/algebra2SubLessons/ConicSections";
+import ExponentialFunctions from "./components/lessons/algebra2SubLessons/ExponentialFunction";
+import IntroductionToLogarithms from "./components/lessons/algebra2SubLessons/IntroductionToLogarithms"
+import MatrixBasics from "./components/lessons/algebra2SubLessons/MatrixBasics"
+import PolynomialFunctions from "./components/lessons/algebra2SubLessons/PolynomialFunctions"
+import QuadraticEquations from "./components/lessons/algebra2SubLessons/QuadraticEquations"
+import QuadraticFormula from "./components/lessons/algebra2SubLessons/QuadraticFormula"
+import RadicalExpression from "./components/lessons/algebra2SubLessons/RadicalExpression"
+import RationalExpression from "./components/lessons/algebra2SubLessons/RationalExpression"
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -119,11 +141,24 @@ export default function App(){
                 <Route path="Linear Equations" element={<LinearEquations/>}/>
                 <Route path="Multi-Step Equations" element={<MultiStepEquations/>}/>
                 <Route path="Polynomials" element={<Polynomials/>}/>
-                <Route path="Quadratics" element={<Quadratics/>}/>
+                <Route path="Introduction to Quadratics" element={<Quadratics/>}/>
                 <Route path="Sequences" element={<Sequences/>}/>
-                <Route path="Slope and Intercept" element={<SlopeAndIntercept/>}/>
+                <Route path="Slope and Intercepts" element={<SlopeAndIntercept/>}/>
                 <Route path="Systems of Equations" element={<SystemsOfEquatons/>}/>
-
+                /**Algebra 2 */
+                <Route path="Advanced Factoring" element={<AdvancedFactoring/>}/>
+                <Route path="Completing the Square" element={<CompletingTheSquare/>}/>
+                <Route path="Complex Numbers" element={<ComplexNumbers/>}/>
+                <Route path="Conic Sections" element={<ConicSections/>}/>
+                <Route path="Exponential Function" element={<ExponentialFunctions/>}/>
+                <Route path="Introduction to Logarithms" element={<IntroductionToLogarithms/>}/>
+                <Route path="Matrices Basics" element={<MatrixBasics/>}/>
+                <Route path="Polynomial Functions" element={<PolynomialFunctions/>}/>
+                <Route path="Quadratic Equations" element={<QuadraticEquations/>}/>
+                <Route path="Quadratic Formula" element={<QuadraticFormula/>}/>
+                <Route path="Radical Expression" element={<RadicalExpression/>}/>
+                <Route path="Rational Expression" element={<RationalExpression/>}/>
+               
                 {/* fallback: unknown paths -> home */}
                 <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
