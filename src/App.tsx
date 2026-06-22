@@ -58,16 +58,17 @@ import QuadraticEquations from "./components/lessons/algebra2SubLessons/Quadrati
 import QuadraticFormula from "./components/lessons/algebra2SubLessons/QuadraticFormula"
 import RadicalExpression from "./components/lessons/algebra2SubLessons/RadicalExpression"
 import RationalExpression from "./components/lessons/algebra2SubLessons/RationalExpression"
-
-
-
-
-
-
-
-
-
-
+import Angles from "./components/lessons/geometrySubLessons/Angles";
+import Circles from "./components/lessons/geometrySubLessons/Circles";
+import CongruenceAndSimilarity from "./components/lessons/geometrySubLessons/CongruenceAndSimilarity";
+import CoordinateGeometry from "./components/lessons/geometrySubLessons/CoordinateGeometry";
+import DistanceAndMidpointFormula from "./components/lessons/geometrySubLessons/DistanceAndMidpointFormula";
+import PerimeterAndArea from "./components/lessons/geometrySubLessons/PerimeterAndArea";
+import PointLinesPlanes from "./components/lessons/geometrySubLessons/PointsLinesPlanes";
+import PythagoreanTheorem from "./components/lessons/geometrySubLessons/PythagoreanTheorem";
+import SurfaceAreaAndVolume from "./components/lessons/geometrySubLessons/SurfaceAreaAndVolume";
+import Transformations from "./components/lessons/geometrySubLessons/Transformations";
+import Triangles from "./components/lessons/geometrySubLessons/Triangles";
 
 
 
@@ -158,6 +159,20 @@ export default function App(){
                 <Route path="Quadratic Formula" element={<QuadraticFormula/>}/>
                 <Route path="Radical Expression" element={<RadicalExpression/>}/>
                 <Route path="Rational Expression" element={<RationalExpression/>}/>
+                /**Geometry */
+                <Route path="Angles" element={<Angles/>}/>
+                <Route path="Circles" element={<Circles/>}/>
+                <Route path="Congruence and Similarity" element={<CongruenceAndSimilarity/>}/>
+                <Route path="Coordinate Geometry" element={<CoordinateGeometry/>}/>
+                <Route path="Distance and Midpoint Formula" element={<DistanceAndMidpointFormula/>}/>
+                <Route path="Points, Lines, and Planes" element={<PointLinesPlanes/>}/>
+                <Route path="Pythagorean Theorem" element={<PythagoreanTheorem/>}/>
+                <Route path="Surface Area and Volume" element={<SurfaceAreaAndVolume/>}/>
+                <Route path="Transformations" element={<Transformations/>}/>
+                <Route path="Triangles" element={<Triangles/>}/>
+                <Route path="Perimeter and Area" element={<PerimeterAndArea/>}/>
+                
+                
                
                 {/* fallback: unknown paths -> home */}
                 <Route path="*" element={<Navigate to="/" replace />} />
