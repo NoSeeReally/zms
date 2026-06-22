@@ -196,7 +196,7 @@ export default function App(){
                 <Route path="Graphs and Charts" element={<GraphsAndCharts/>}/>
                 <Route path="Basic Probability" element={<BasicProbability/>}/>
                 <Route path="Compound Probability" element={<CompoundProbability/>}/>
-                <Route path="Permuatations and Combinations" element={<PermuAndCombi/>}/>
+                <Route path="Permutations and Combinations" element={<PermuAndCombi/>}/>
                 <Route path="Data Interpretations" element={<DataInterpretations/>}/>
                 
                 
