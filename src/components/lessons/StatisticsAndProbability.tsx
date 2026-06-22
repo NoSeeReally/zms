@@ -9,7 +9,7 @@ export default function Trigonometry(){
         {title:"Graphs and Charts"},
         {title:"Basic Probability"},
         {title:"Compound Probability"},
-        {title:"Permuations and Combinations"},
+        {title:"Permutations and Combinations"},
         {title:"Data Interpretations"}
     ]
     return(
