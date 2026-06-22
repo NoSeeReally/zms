@@ -34,10 +34,10 @@ const lessons: Array<{
   },
   {
     title: "Stats & Probability",
-    subtopics: ["Mean, Median, Mode", "Range", "Intro to Standard Deviation", "Graphs and Charts", "Basic Probability", "Compound Probability", "Permutation and Combinations", "Data Interpretation"]
+    subtopics: ["Mean, Median, Mode", "Range", "Intro to Standard Deviation", "Graphs and Charts", "Basic Probability", "Compound Probability", "Permutations and Combinations", "Data Interpretations"]
   }
   ];
-
+  /**I delete unya ang subtopics ha */
     return(
         <>
             <div className="padding"></div>
