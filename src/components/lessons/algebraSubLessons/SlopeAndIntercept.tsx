@@ -62,7 +62,7 @@ export default function SlopeAndIntercept(){
 
     return(
         <>
-           return <LessonRenderer lessonTitle="Slope and Intercept" cards={slopeAndInterceptsLesson} returnPath="/Algebra 1" />;
+           return <LessonRenderer lessonTitle="Slope and Intercepts" cards={slopeAndInterceptsLesson} returnPath="/Algebra 1" />;
         </>
     );
 }

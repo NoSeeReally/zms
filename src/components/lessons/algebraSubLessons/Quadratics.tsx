@@ -62,7 +62,7 @@ export default function Quadratics(){
 
     return(
         <>
-           return <LessonRenderer lessonTitle="Quadratics" cards={quadraticsLesson} returnPath="/Algebra 1" />;
+           return <LessonRenderer lessonTitle="Introduction to Quadratics" cards={quadraticsLesson} returnPath="/Algebra 1" />;
         </>
     );
 }
