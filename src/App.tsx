@@ -69,6 +69,16 @@ import PythagoreanTheorem from "./components/lessons/geometrySubLessons/Pythagor
 import SurfaceAreaAndVolume from "./components/lessons/geometrySubLessons/SurfaceAreaAndVolume";
 import Transformations from "./components/lessons/geometrySubLessons/Transformations";
 import Triangles from "./components/lessons/geometrySubLessons/Triangles";
+import Applications from "./components/lessons/trygonometrySubLessons/Applications";
+import GraphOfTrigFunctions from "./components/lessons/trygonometrySubLessons/GraphsOfTrigFunctions";
+import InverseTrigFunctions from "./components/lessons/trygonometrySubLessons/InverseTrigFunctions";
+import RightTriangleTrigonometry from "./components/lessons/trygonometrySubLessons/RightTriangleTrigonometry";
+import SineCosineTangent from "./components/lessons/trygonometrySubLessons/SineCosineTangent";
+import SpecialTriangles from "./components/lessons/trygonometrySubLessons/SpecialTriangles";
+import UnitCircle from "./components/lessons/trygonometrySubLessons/UnitCircle";
+
+
+
 
 
 
@@ -171,6 +181,14 @@ export default function App(){
                 <Route path="Transformations" element={<Transformations/>}/>
                 <Route path="Triangles" element={<Triangles/>}/>
                 <Route path="Perimeter and Area" element={<PerimeterAndArea/>}/>
+                /**Trigonometry */
+                <Route path="Applications" element={<Applications/>}/>
+                <Route path="Graphs of Trig Functions" element={<GraphOfTrigFunctions/>}/>
+                <Route path="Inverse Trigonometric Functions" element={<InverseTrigFunctions/>}/>
+                <Route path="Right Triangle Trigonometry" element={<RightTriangleTrigonometry/>}/>
+                <Route path="Sine, Cosine, Tangent" element={<SineCosineTangent/>}/>
+                <Route path="Special Triangles" element={<SpecialTriangles/>}/>
+                <Route path="Unit Circle" element={<UnitCircle/>}/>
                 
                 
                
