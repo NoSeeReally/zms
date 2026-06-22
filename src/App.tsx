@@ -69,21 +69,21 @@ import PythagoreanTheorem from "./components/lessons/geometrySubLessons/Pythagor
 import SurfaceAreaAndVolume from "./components/lessons/geometrySubLessons/SurfaceAreaAndVolume";
 import Transformations from "./components/lessons/geometrySubLessons/Transformations";
 import Triangles from "./components/lessons/geometrySubLessons/Triangles";
-import Applications from "./components/lessons/trygonometrySubLessons/Applications";
-import GraphOfTrigFunctions from "./components/lessons/trygonometrySubLessons/GraphsOfTrigFunctions";
-import InverseTrigFunctions from "./components/lessons/trygonometrySubLessons/InverseTrigFunctions";
-import RightTriangleTrigonometry from "./components/lessons/trygonometrySubLessons/RightTriangleTrigonometry";
-import SineCosineTangent from "./components/lessons/trygonometrySubLessons/SineCosineTangent";
-import SpecialTriangles from "./components/lessons/trygonometrySubLessons/SpecialTriangles";
-import UnitCircle from "./components/lessons/trygonometrySubLessons/UnitCircle";
-
-
-
-
-
-
-
-
+import Applications from "./components/lessons/trigonometrySubLessons/Applications";
+import GraphOfTrigFunctions from "./components/lessons/trigonometrySubLessons/GraphsOfTrigFunctions";
+import InverseTrigFunctions from "./components/lessons/trigonometrySubLessons/InverseTrigFunctions";
+import RightTriangleTrigonometry from "./components/lessons/trigonometrySubLessons/RightTriangleTrigonometry";
+import SineCosineTangent from "./components/lessons/trigonometrySubLessons/SineCosineTangent";
+import SpecialTriangles from "./components/lessons/trigonometrySubLessons/SpecialTriangles";
+import UnitCircle from "./components/lessons/trigonometrySubLessons/UnitCircle";
+import MeanMedianMode from "./components/lessons/stats&ProbSubLessons/MeanMedianMode";
+import Range from "./components/lessons/stats&ProbSubLessons/Range";
+import IntroToStandardDev from "./components/lessons/stats&ProbSubLessons/IntroToStandardDev";
+import GraphsAndCharts from "./components/lessons/stats&ProbSubLessons/GraphsAndCharts";
+import BasicProbability from "./components/lessons/stats&ProbSubLessons/BasicProbability";
+import CompoundProbability from "./components/lessons/stats&ProbSubLessons/CompoundProbability";
+import PermuAndCombi from "./components/lessons/stats&ProbSubLessons/PermuAndCombi";
+import DataInterpretations from "./components/lessons/stats&ProbSubLessons/DataInterpretations";
 
 export default function App(){
     const [isVisible, setIsVisible] = useState<boolean>(true)
@@ -189,6 +189,15 @@ export default function App(){
                 <Route path="Sine, Cosine, Tangent" element={<SineCosineTangent/>}/>
                 <Route path="Special Triangles" element={<SpecialTriangles/>}/>
                 <Route path="Unit Circle" element={<UnitCircle/>}/>
+                /**Statistics and Probability */
+                <Route path="Mean, Median, Mode" element={<MeanMedianMode/>}/>
+                <Route path="Range" element={<Range/>}/>
+                <Route path="Intro to Standard Deviation" element={<IntroToStandardDev/>}/>
+                <Route path="Graphs and Charts" element={<GraphsAndCharts/>}/>
+                <Route path="Basic Probability" element={<BasicProbability/>}/>
+                <Route path="Compound Probability" element={<CompoundProbability/>}/>
+                <Route path="Permuatations and Combinations" element={<PermuAndCombi/>}/>
+                <Route path="Data Interpretations" element={<DataInterpretations/>}/>
                 
                 
                
